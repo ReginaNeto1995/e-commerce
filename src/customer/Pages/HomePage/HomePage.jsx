@@ -6,8 +6,11 @@ const HomePage = () => {
     return (
         <div>
             <MainCarousel/>
-            <div>
+            <div className ='spacy-y-1 py-20 flex flex-col justify-center px-5 lg:px-10'>
                 <HomeSectionCarousel/>
+                <HomeSectionCarousel/>
+                <HomeSectionCarousel/>
+                <HomeSectionCarousel/>        
             </div>
         </div>
     );
